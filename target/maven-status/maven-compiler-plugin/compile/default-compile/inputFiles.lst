@@ -1,0 +1,11 @@
+/Users/felipeantunes/Desktop/FIAP/Persistence/FIAP-2020-SCJ-JavaPersistence/Lab 05/05_CacheRedis/src/br/com/fiap/test/SpringTest.java
+/Users/felipeantunes/Desktop/FIAP/Persistence/FIAP-2020-SCJ-JavaPersistence/Lab 05/05_CacheRedis/src/br/com/fiap/service/IProdutoService.java
+/Users/felipeantunes/Desktop/FIAP/Persistence/FIAP-2020-SCJ-JavaPersistence/Lab 05/05_CacheRedis/src/br/com/fiap/entity/Produto.java
+/Users/felipeantunes/Desktop/FIAP/Persistence/FIAP-2020-SCJ-JavaPersistence/Lab 05/05_CacheRedis/src/br/com/fiap/test/ClientUtil.java
+/Users/felipeantunes/Desktop/FIAP/Persistence/FIAP-2020-SCJ-JavaPersistence/Lab 05/05_CacheRedis/src/br/com/fiap/config/RedisConfig.java
+/Users/felipeantunes/Desktop/FIAP/Persistence/FIAP-2020-SCJ-JavaPersistence/Lab 05/05_CacheRedis/src/br/com/fiap/config/JPAConfig.java
+/Users/felipeantunes/Desktop/FIAP/Persistence/FIAP-2020-SCJ-JavaPersistence/Lab 05/05_CacheRedis/src/br/com/fiap/repository/ProdutoRepository.java
+/Users/felipeantunes/Desktop/FIAP/Persistence/FIAP-2020-SCJ-JavaPersistence/Lab 05/05_CacheRedis/src/br/com/fiap/config/WebAppInitializer.java
+/Users/felipeantunes/Desktop/FIAP/Persistence/FIAP-2020-SCJ-JavaPersistence/Lab 05/05_CacheRedis/src/br/com/fiap/controller/ProdutoController.java
+/Users/felipeantunes/Desktop/FIAP/Persistence/FIAP-2020-SCJ-JavaPersistence/Lab 05/05_CacheRedis/src/br/com/fiap/config/AppConfig.java
+/Users/felipeantunes/Desktop/FIAP/Persistence/FIAP-2020-SCJ-JavaPersistence/Lab 05/05_CacheRedis/src/br/com/fiap/service/ProdutoService.java
