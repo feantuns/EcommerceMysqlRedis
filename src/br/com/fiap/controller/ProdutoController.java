@@ -25,10 +25,6 @@ public class ProdutoController {
 	@Autowired
 	private IProdutoService produtoService;
 	
-    @RequestMapping("greeting")
-    public String greeting() {
-        return "Teste!";
-    }
 	@GetMapping("produto/{id}")
 	public ResponseEntity<Produto> getProdutoById(@PathVariable("id") Long id) {
 		Produto produto = produtoService.getProdutoById(id);
