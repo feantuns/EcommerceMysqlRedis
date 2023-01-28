@@ -20,7 +20,7 @@ import br.com.fiap.entity.Cliente;
 import br.com.fiap.service.IClienteService;
 
 @RestController
-@RequestMapping("usuarios")
+@RequestMapping("loja")
 public class ClienteController {
 	@Autowired
 	private IClienteService clienteService;

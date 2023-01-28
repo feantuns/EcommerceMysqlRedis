@@ -1,11 +1,16 @@
 package br.com.fiap.entity;
 
 import java.io.Serializable;
+import java.util.HashSet;
+import java.util.Set;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -19,6 +24,14 @@ public class Produto implements Serializable {
 	public int quantidade;
 	public float valor;
 	
+	@ManyToMany(fetch = FetchType.LAZY,
+	      cascade = {
+	          CascadeType.PERSIST,
+	          CascadeType.MERGE
+	      },
+	      mappedBy = "produtos")
+	private Set<Pedido> pedidos = new HashSet<>();
+	
 	public Produto(long id, String nome, int quantidade, float valor) {
 		super();
 		this.id = id;
@@ -29,6 +42,22 @@ public class Produto implements Serializable {
 	
 	public Produto() {
 		super();
+	}
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public Set<Pedido> getPedidos() {
+		return pedidos;
+	}
+
+	public void setPedidos(Set<Pedido> pedidos) {
+		this.pedidos = pedidos;
 	}
 
 }

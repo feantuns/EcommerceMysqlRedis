@@ -20,7 +20,7 @@ import br.com.fiap.entity.Produto;
 import br.com.fiap.service.IProdutoService;
 
 @RestController
-@RequestMapping("estoque")
+@RequestMapping("loja")
 public class ProdutoController {
 	@Autowired
 	private IProdutoService produtoService;
